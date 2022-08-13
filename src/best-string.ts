@@ -2,7 +2,8 @@ export class BestString {
     constructor(private string: string) {
     }
 
-    removePersianChar(): this {
+    noScriptTag(): this {
+        this.string = this.string.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "")
         return this
     }
 

@@ -1,11 +1,8 @@
 <p align="center">
   <a href="https://github.com/sajjadmrx/best-string" target="blank">
-        <img src="https://imgur.com/OsLoR2k" width="500" alt="Best-string Logo" /></a>
+        <img src="https://cdn.discordapp.com/attachments/980899740784951387/1007988372284915864/New_Project.png" width="500" alt="Best-string Logo" /></a>
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-
-[circleci-url]: https://circleci.com/gh/nestjs/nest
 
   <h1 align="center"> 
         <hr>

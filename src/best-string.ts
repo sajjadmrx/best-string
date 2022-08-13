@@ -7,6 +7,12 @@ export class BestString {
         return this
     }
 
+    replaceGlobal(to: string, text: string): this {
+        const reg: RegExp = new RegExp(to, 'gi')
+        this.string = this.string.replace(reg, text)
+        return this
+    }
+
     build(): string {
         return this.string
     }

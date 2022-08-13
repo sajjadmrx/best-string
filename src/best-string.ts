@@ -3,7 +3,7 @@ export class BestString {
     }
 
     noScriptTag(): this {
-        this.string = this.string.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "")
+        this.string = this.string.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "").trim()
         return this
     }
 

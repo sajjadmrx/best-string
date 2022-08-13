@@ -11,8 +11,17 @@
     "/dist",
     "/types"
   ],
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "replace",
+    "text",
+    "string",
+    "helper",
+    "rtl",
+    "regex",
+    "script",
+    "script-tags"
+  ],
+  "author": "sajjadmrx",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^28.1.6",
